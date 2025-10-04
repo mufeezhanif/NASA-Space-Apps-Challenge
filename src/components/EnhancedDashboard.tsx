@@ -28,6 +28,7 @@ import { useState, useEffect } from 'react';
 import { apiClient } from '@/lib/apiClient';
 import { WeatherData } from '@/types/airQuality';
 import { useLocation } from '@/hooks/useLocation';
+import PollutantCards from './PollutantCards';
 
 // AQI Dial Component - Minimal & Modern Design
 export function AQIDial({ aqi, size = 200 }: { aqi: number; size?: number }) {
@@ -761,6 +762,9 @@ export default function EnhancedDashboard() {
           </Card>
         </div>
       </div>
+      
+      {/* Pollutant Cards - 5 Key Parameters */}
+      <PollutantCards />
       
       {/* Health Recommendations Section */}
       <HealthRecommendations aqi={Math.round(currentAQI)} />
