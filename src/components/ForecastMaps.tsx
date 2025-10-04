@@ -25,6 +25,7 @@ import {
 } from 'lucide-react';
 import { TempoData } from '@/types/airQuality';
 import L from 'leaflet';
+import WindyStyleMap from './WindyStyleMap';
 
 // Mock TEMPO data for demonstration
 const generateTempoData = (hour: number): TempoData[] => {
@@ -189,6 +190,9 @@ export default function ForecastMaps() {
 
   return (
     <div className="space-y-6">
+      {/* Windy Style Interactive Map */}
+      <WindyStyleMap />
+      
       {/* Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-4 sm:space-y-0">
         <div>
