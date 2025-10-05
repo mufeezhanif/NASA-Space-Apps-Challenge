@@ -26,7 +26,7 @@
     <!-- iOS Safari PWA Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="AirWatch Pro" />
+    <meta name="apple-mobile-web-app-title" content="Atmosphere Analyzer" />
     
     <!-- Microsoft Windows/Edge PWA Meta Tags -->
     <meta name="msapplication-TileImage" content="/icon-144x144.svg" />
@@ -35,19 +35,19 @@
     
     <!-- Additional PWA Meta Tags -->
     <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="AirWatch Pro" />
+    <meta name="application-name" content="Atmosphere Analyzer" />
     
     <!-- Open Graph Meta Tags for Social Sharing -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="AirWatch Pro - Air Quality Monitoring" />
+    <meta property="og:title" content="Atmosphere Analyzer - Air Quality Monitoring" />
     <meta property="og:description" content="Real-time air quality monitoring with NASA TEMPO satellite data integration" />
     <meta property="og:image" content="/icon-512x512.svg" />
     <meta property="og:url" content="/" />
-    <meta property="og:site_name" content="AirWatch Pro" />
+    <meta property="og:site_name" content="Atmosphere Analyzer" />
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="AirWatch Pro - Air Quality Monitoring" />
+    <meta name="twitter:title" content="Atmosphere Analyzer - Air Quality Monitoring" />
     <meta name="twitter:description" content="Real-time air quality monitoring with NASA TEMPO satellite data integration" />
     <meta name="twitter:image" content="/icon-512x512.svg" />
     
@@ -57,7 +57,7 @@
     <meta name="googlebot" content="index, follow" />
     
     <!-- App Title -->
-    <title>AirWatch Pro - Air Quality Monitoring</title>
+    <title>Atmosphere Analyzer - Air Quality Monitoring</title>
   </head>
   <body>
     <div id="root"></div>
@@ -90,20 +90,7 @@
         });
       }
 
-      // Check for PWA install prompt
-      let deferredPrompt;
-      window.addEventListener('beforeinstallprompt', (e) => {
-        e.preventDefault();
-        deferredPrompt = e;
-        // Store the event for later use
-        window.dispatchEvent(new CustomEvent('pwa-installable', { detail: deferredPrompt }));
-      });
-      
-      // Handle PWA installation
-      window.addEventListener('appinstalled', (evt) => {
-        console.log('PWA was installed');
-        window.dispatchEvent(new CustomEvent('pwa-installed'));
-      });
+      // PWA install handlers removed to prevent prompt on load
     </script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-# 🚀 Quick Start for Judges - AirWatch Pro
+# 🚀 Quick Start for Judges - Atmosphere Analyzer
 
 ## One-Command Demo Setup
 
@@ -55,4 +55,4 @@ docker-compose down
 - 💬 **Slack**: #nasa-space-apps-airwatch
 
 ---
-**AirWatch Pro - Transforming NASA TEMPO data into life-saving public health protection** 🛰️
+**Atmosphere Analyzer - Transforming NASA TEMPO data into public health protection** 🛰️

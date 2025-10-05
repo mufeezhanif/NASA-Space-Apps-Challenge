@@ -1,6 +1,6 @@
-# PWA Configuration for AirWatch Pro
+# PWA Configuration for Atmosphere Analyzer
 
-This document outlines the Progressive Web App (PWA) configuration and setup for AirWatch Pro.
+This document outlines the Progressive Web App (PWA) configuration and setup for Atmosphere Analyzer.
 
 ## PWA Features Implemented
 

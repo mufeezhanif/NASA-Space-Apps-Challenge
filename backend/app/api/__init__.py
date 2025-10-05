@@ -1,1 +1,1 @@
-"""API module for AirWatch Pro"""
+"""API module for Atmosphere Analyzer"""

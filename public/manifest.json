@@ -1,6 +1,6 @@
 {
-  "name": "AirWatch Pro - Air Quality Monitoring",
-  "short_name": "AirWatch Pro",
+  "name": "Atmosphere Analyzer - Air Quality Monitoring",
+  "short_name": "Atmosphere Analyzer",
   "description": "Real-time air quality monitoring with NASA TEMPO satellite data integration",
   "start_url": "/",
   "display": "standalone",
@@ -72,14 +72,14 @@
       "sizes": "540x720",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "AirWatch Pro Dashboard - Mobile View"
+      "label": "Atmosphere Analyzer Dashboard - Mobile View"
     },
     {
       "src": "/screenshot2.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "AirWatch Pro Dashboard - Desktop View"
+      "label": "Atmosphere Analyzer Dashboard - Desktop View"
     }
   ],
   "shortcuts": [

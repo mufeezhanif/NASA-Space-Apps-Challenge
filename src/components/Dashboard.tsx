@@ -215,11 +215,11 @@ export default function Dashboard() {
       <Card className={`p-6 ${getAQIBgColor(currentData.aqi)}`}>
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-2xl font-bold text-white mb-2">
+            <h2 className="text-2xl font-bold text-foreground mb-2">
               Air Quality Index
             </h2>
             <div className="flex items-center gap-4">
-              <span className="text-5xl font-bold text-white">
+              <span className="text-5xl font-bold text-foreground">
                 {currentData.aqi}
               </span>
               <div>
@@ -229,13 +229,13 @@ export default function Dashboard() {
                 >
                   {currentData.level}
                 </Badge>
-                <p className="text-white/90 text-sm">
+                <p className="text-foreground/80 text-sm">
                   {/* Dominant pollutant calculation would need to be added */}
                 </p>
               </div>
             </div>
           </div>
-          <div className="text-right text-white">
+          <div className="text-right text-foreground">
             <p className="text-sm opacity-90">Last Updated</p>
             <p className="font-medium">
               {new Date(currentData.timestamp).toLocaleTimeString()}

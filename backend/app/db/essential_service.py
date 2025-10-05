@@ -1,5 +1,5 @@
 """
-Essential Database Service for AirWatch Pro
+Essential Database Service for Atmosphere Analyzer
 Focused implementation for frontend requirements only:
 - Historical trends (7-90 days)
 - User preferences persistence
@@ -46,7 +46,7 @@ class UserPreferences:
 
 
 class EssentialDatabaseService(LoggerMixin):
-    """Essential database operations for AirWatch Pro frontend needs"""
+    """Essential database operations for Atmosphere Analyzer frontend needs"""
     
     def __init__(self):
         """Initialize the service"""

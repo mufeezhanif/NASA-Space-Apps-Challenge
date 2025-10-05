@@ -1,5 +1,5 @@
 """
-Core configuration settings for AirWatch Pro
+Core configuration settings for Atmosphere Analyzer
 Handles environment variables and application settings
 """
 
@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables"""
     
     # Application Info
-    PROJECT_NAME: str = "AirWatch Pro API"
+    PROJECT_NAME: str = "Atmosphere Analyzer API"
     VERSION: str = "2.0.0"
     DESCRIPTION: str = "Advanced Air Quality Monitoring and Prediction System"
     

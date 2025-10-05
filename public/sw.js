@@ -1,5 +1,5 @@
 /**
- * AirWatch Pro Service Worker
+ * Atmosphere Analyzer Service Worker
  * Enhanced PWA service worker with comprehensive offline support, 
  * background sync, push notifications, and caching strategies
  */
@@ -30,7 +30,7 @@ const API_CACHE_PATTERNS = [
 
 // Install event - cache resources with improved error handling
 self.addEventListener('install', (event) => {
-  console.log('[SW] Installing AirWatch Pro service worker...');
+  console.log('[SW] Installing Atmosphere Analyzer service worker...');
   
   event.waitUntil(
     Promise.all([
@@ -57,7 +57,7 @@ self.addEventListener('install', (event) => {
 
 // Activate event - clean up old caches and claim clients
 self.addEventListener('activate', (event) => {
-  console.log('[SW] Activating AirWatch Pro service worker...');
+  console.log('[SW] Activating Atmosphere Analyzer service worker...');
   
   event.waitUntil(
     Promise.all([
@@ -85,7 +85,7 @@ self.addEventListener('push', (event) => {
   console.log('[SW] Push notification received:', event);
   
   let notificationData = {
-    title: 'AirWatch Pro Alert',
+    title: 'Atmosphere Analyzer Alert',
     body: 'New air quality information available',
     icon: '/icon-192x192.png',
     badge: '/icon-72x72.png',
@@ -338,7 +338,7 @@ async function handleNavigationRequest(request) {
       <html>
         <head>
           <meta charset="utf-8">
-          <title>AirWatch Pro - Offline</title>
+          <title>Atmosphere Analyzer - Offline</title>
           <meta name="viewport" content="width=device-width,initial-scale=1">
           <style>
             body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
@@ -348,7 +348,7 @@ async function handleNavigationRequest(request) {
         <body>
           <div class="offline">
             <h1>🌐 You're Offline</h1>
-            <p>AirWatch Pro is not available right now. Please check your internet connection.</p>
+            <p>Atmosphere Analyzer is not available right now. Please check your internet connection.</p>
             <button onclick="window.location.reload()">Try Again</button>
           </div>
         </body>
@@ -619,7 +619,7 @@ async function getUserPreferences() {
   }
 }
 
-console.log('[SW] AirWatch Pro Service Worker v1.0.0 loaded successfully');
+console.log('[SW] Atmosphere Analyzer Service Worker v1.0.0 loaded successfully');
 
 // Enhanced message handler for communication with main thread
 self.addEventListener('message', (event) => {

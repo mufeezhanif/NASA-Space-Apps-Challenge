@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AirWatch Pro Backend Server Startup Script
+Atmosphere Analyzer Backend Server Startup Script
 """
 
 import uvicorn

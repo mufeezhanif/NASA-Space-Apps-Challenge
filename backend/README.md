@@ -1,11 +1,11 @@
-# AirWatch Pro Backend – Modular FastAPI Service
+# Atmosphere Analyzer Backend – Modular FastAPI Service
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.103+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-Pytest-blue)](./tests)
 
-A modern, modular FastAPI backend powering air quality monitoring, multi‑source data ingestion, and health intelligence services for AirWatch Pro.
+A modern, modular FastAPI backend powering air quality monitoring, multi‑source data ingestion, and health intelligence services for Atmosphere Analyzer.
 
 ---
 ## Table of Contents
@@ -284,4 +284,4 @@ CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 MIT License – see [LICENSE](../LICENSE) for details.
 
 ---
-> Part of the broader **AirWatch Pro** platform (frontend PWA + satellite data integration). Future roadmap: NASA TEMPO ingestion, predictive modeling, advanced caching.
+> Part of the broader **Atmosphere Analyzer** platform (frontend PWA + satellite data integration). Future roadmap: NASA TEMPO ingestion, predictive modeling, advanced caching.

@@ -1,8 +1,8 @@
-# Contributing to AirWatch Pro
+# Contributing to Atmosphere Analyzer
 
 > **Help us revolutionize air quality monitoring with NASA TEMPO satellite data**
 
-We're excited that you're interested in contributing to AirWatch Pro! This project aims to transform NASA's groundbreaking TEMPO satellite data into life-saving public health interventions. Every contribution, no matter how small, helps us protect vulnerable communities and save lives.
+We're excited that you're interested in contributing to Atmosphere Analyzer! This project aims to transform NASA's TEMPO satellite data into public health interventions. Every contribution helps protect communities and advance environmental health.
 
 ## 🌟 How to Contribute
 
@@ -49,7 +49,7 @@ We're excited that you're interested in contributing to AirWatch Pro! This proje
 ### 🐛 Bug Reports & Feature Requests
 - **🔍 Bug Reports**: Help us identify and fix issues
 - **💡 Feature Ideas**: Suggest new capabilities
-- **📊 Use Cases**: Share how you'd use AirWatch Pro
+- **📊 Use Cases**: Share how you'd use Atmosphere Analyzer
 - **🔬 Research**: Contribute air quality expertise
 
 ### 🧪 Testing & Quality Assurance
@@ -449,7 +449,7 @@ Project maintainers are responsible for clarifying standards and are expected to
 
 ## 📄 License
 
-By contributing to AirWatch Pro, you agree that your contributions will be licensed under the MIT License.
+By contributing to Atmosphere Analyzer, you agree that your contributions will be licensed under the MIT License.
 
 ---
 

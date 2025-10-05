@@ -1,8 +1,8 @@
-# 🛗 AirWatch Pro - API Documentation
+# 🛗 Atmosphere Analyzer - API Documentation
 
 ## 📋 Overview
 
-AirWatch Pro provides a RESTful API for accessing real-time air quality data integrated from NASA TEMPO satellite observations, ground-based monitoring stations, and weather data. All endpoints return JSON responses and follow standard HTTP status codes.
+Atmosphere Analyzer provides a RESTful API for accessing real-time air quality data integrated from NASA TEMPO satellite observations, ground-based monitoring stations, and weather data. All endpoints return JSON responses and follow standard HTTP status codes.
 
 **Base URL:** `https://airwatchpro.vercel.app/api`
 

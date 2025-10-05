@@ -43,12 +43,12 @@ export default function NavigationDrawer({ isOpen, onClose, activeTab, onTabChan
             {/* Header */}
             <div className="p-6 border-b border-white/10">
               <div className="flex items-center justify-between">
-                <h2 className="text-xl font-bold text-white">Navigation</h2>
+                <h2 className="text-xl font-bold text-foreground">Navigation</h2>
                 <Button
                   variant="ghost"
                   size="icon"
                   onClick={onClose}
-                  className="text-white hover:bg-white/10 rounded-full"
+                  className="text-foreground hover:bg-slate-100 rounded-full"
                 >
                   <X className="w-5 h-5" />
                 </Button>
@@ -81,10 +81,10 @@ export default function NavigationDrawer({ isOpen, onClose, activeTab, onTabChan
                         ? 'bg-gradient-to-br from-cyan-500 to-purple-600' 
                         : 'bg-white/10'
                     }`}>
-                      <Icon className={`w-5 h-5 ${isActive ? 'text-white' : 'text-gray-300'}`} />
+                      <Icon className={`w-5 h-5 ${isActive ? 'text-foreground' : 'text-gray-500'}`} />
                     </div>
                     <span className={`font-medium ${
-                      isActive ? 'text-white' : 'text-gray-300'
+                      isActive ? 'text-foreground' : 'text-gray-500'
                     }`}>
                       {item.label}
                     </span>
@@ -96,7 +96,7 @@ export default function NavigationDrawer({ isOpen, onClose, activeTab, onTabChan
             {/* Footer Info */}
             <div className="absolute bottom-0 left-0 right-0 p-6 border-t border-white/10">
               <div className="text-xs text-gray-400 space-y-1">
-                <p>AirWatch Pro v2.0</p>
+                <p>Atmosphere Analyzer v2.0</p>
                 <p className="text-gray-500">AI-Powered Air Quality Monitoring</p>
               </div>
             </div>

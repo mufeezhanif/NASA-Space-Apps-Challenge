@@ -1,5 +1,5 @@
 """
-AirWatch Pro - Main FastAPI Application
+Atmosphere Analyzer - Main FastAPI Application
 Entry point for the modular air quality monitoring backend
 """
 
@@ -54,7 +54,7 @@ app = create_application()
 async def root():
     """Root endpoint with basic health check"""
     return {
-        "message": "AirWatch Pro API",
+        "message": "Atmosphere Analyzer API",
         "version": settings.VERSION,
         "status": "running"
     }

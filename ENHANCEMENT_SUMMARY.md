@@ -2,7 +2,7 @@
 
 ## 🎯 Project Overview
 
-This document summarizes the comprehensive enhancements made to the AirWatch Pro website for the NASA Space Apps Challenge. The goal was to transform the MVP into a production-ready application with a minimalist blue and white theme, advanced data visualization, and Windy.com-style interactive maps.
+This document summarizes the comprehensive enhancements made to the Atmosphere Analyzer website for the NASA Space Apps Challenge. The goal was to transform the MVP into a production-ready application with a refined theme, advanced data visualization, and interactive maps.
 
 **Challenge:** *From EarthData to Action: Cloud Computing with Earth Observation Data for Predicting Cleaner, Safer Skies*
 

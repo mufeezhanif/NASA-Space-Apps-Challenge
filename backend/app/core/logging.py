@@ -1,5 +1,5 @@
 """
-Logging configuration for AirWatch Pro
+Logging configuration for Atmosphere Analyzer
 Centralized logging setup with proper formatting and levels
 """
 

@@ -29,7 +29,7 @@ export default function Index() {
   }, []);
 
   return (
-    <Tabs value={activeTab} onValueChange={setActiveTab} className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+    <Tabs value={activeTab} onValueChange={setActiveTab} className="min-h-screen bg-background">
       {/* Navigation Drawer */}
       <NavigationDrawer 
         isOpen={isDrawerOpen}
@@ -77,7 +77,7 @@ export default function Index() {
                 </div>
                 <div>
                   <h1 className="text-2xl sm:text-3xl font-bold ai-gradient-text">
-                    AirWatch Pro
+                    Atmosphere Analyzer
                   </h1>
                   <p className="text-xs sm:text-sm text-gray-400 flex items-center gap-1">
                     <Sparkles className="w-3 h-3" />
@@ -94,7 +94,7 @@ export default function Index() {
                   whileHover={{ scale: 1.05 }}
                 >
                   <MapPin className="w-4 h-4 text-cyan-400" />
-                  <span className="text-sm font-medium text-white max-w-48 truncate">
+                  <span className="text-sm font-medium text-foreground max-w-48 truncate">
                     {location.locationName}
                   </span>
                 </motion.div>
@@ -119,7 +119,7 @@ export default function Index() {
                   onClick={() => setIsDrawerOpen(true)}
                   className="p-3 glass-strong rounded-xl border border-white/20 hover:border-cyan-400/50 transition-all duration-300"
                 >
-                  <Menu className="w-5 h-5 text-white" />
+                  <Menu className="w-5 h-5 text-foreground" />
                 </motion.button>
               </div>
             </div>
@@ -159,7 +159,7 @@ export default function Index() {
                 <span className="text-sm font-medium text-cyan-400">NASA TEMPO Satellite • Real-time Data</span>
               </div>
               
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
                 Experience the Future of
                 <span className="block ai-gradient-text mt-2">Air Quality Monitoring</span>
               </h2>

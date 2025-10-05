@@ -45,7 +45,7 @@ iconSizes.forEach(icon => {
 // Create a simple README for the icons
 const readmeContent = `# PWA Icons
 
-This directory contains all the required PWA icons for AirWatch Pro.
+This directory contains all the required PWA icons for Atmosphere Analyzer.
 
 ## Generated Icons
 

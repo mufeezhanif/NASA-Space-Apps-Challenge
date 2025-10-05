@@ -1,4 +1,4 @@
-# AirWatch Pro Backend - Minimal Working Requirements
+# Atmosphere Analyzer Backend - Minimal Working Requirements
 # Essential dependencies that are proven to work with the NASA hackathon project
 
 # === CORE FRAMEWORK ===

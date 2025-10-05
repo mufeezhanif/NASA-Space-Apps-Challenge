@@ -19,7 +19,7 @@ export function ErrorFallback({ error, resetErrorBoundary }: ErrorFallbackProps)
             </svg>
           </div>
           <h1 className="text-xl font-bold text-gray-900 mb-2">Oops! Something went wrong</h1>
-          <p className="text-gray-600 mb-4">AirWatch Pro encountered an error. Please try refreshing the page.</p>
+          <p className="text-gray-600 mb-4">Atmosphere Analyzer encountered an error. Please try refreshing the page.</p>
           <div className="space-y-2">
             <button
               onClick={resetErrorBoundary}

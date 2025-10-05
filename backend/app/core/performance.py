@@ -1,5 +1,5 @@
 """
-Performance Optimization Middleware for AirWatch Pro
+Performance Optimization Middleware for Atmosphere Analyzer
 Smart caching and nearby data lookup to reduce API calls and improve response times
 """
 

@@ -1,8 +1,8 @@
-# 🚀 AirWatch Pro - Deployment Guide
+# 🚀 Atmosphere Analyzer - Deployment Guide
 
 ## 📋 Quick Start
 
-This deployment guide provides step-by-step instructions for setting up AirWatch Pro locally and deploying to production on Vercel.
+This deployment guide provides step-by-step instructions for setting up Atmosphere Analyzer locally and deploying to production on Vercel.
 
 ## 🏗️ Prerequisites
 

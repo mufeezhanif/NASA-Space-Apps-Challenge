@@ -2,15 +2,15 @@
 
 ## 📋 Project Information
 
-**Project Name:** AirWatch Pro  
-**Team Name:** AirWatch Pro Team  
+**Project Name:** Atmosphere Analyzer  
+**Team Name:** Atmosphere Analyzer Team  
 **Challenge:** From EarthData to Action: Cloud Computing with Earth Observation Data for Predicting Cleaner, Safer Skies  
 **Location:** Bangladesh (Dhaka)  
 **Event Dates:** October 3-4, 2025
 
 ## 🎯 High Level Summary
 
-**AirWatch Pro** is the world's first civilian platform that transforms NASA's revolutionary TEMPO satellite data into life-saving public health intelligence. Our solution bridges the critical gap between cutting-edge space technology and community health protection by delivering real-time air quality monitoring, AI-powered forecasting, and personalized health alerts directly to the people who need them most.
+**Atmosphere Analyzer** is a civilian platform that transforms NASA's TEMPO satellite data into public health intelligence. Our solution bridges the gap between satellite data and community health protection by delivering real-time air quality monitoring, AI-powered forecasting, and personalized health alerts to communities.
 
 **🚀 Core Innovation:** We've created the first comprehensive integration of NASA TEMPO's hourly satellite observations with ground-based measurements and machine learning forecasting, transforming raw space data into actionable health protection for millions.
 
@@ -66,7 +66,7 @@ Transform NASA's TEMPO satellite data into **real-time, actionable health intell
 ### **THE WHAT**
 
 #### Core Solution
-**AirWatch Pro** is a comprehensive web-based application that:
+**Atmosphere Analyzer** is a comprehensive web-based application that:
 
 1. **Integrates NASA TEMPO satellite data** in real-time for hourly air quality monitoring
 2. **Combines multiple data sources** (satellite + ground stations + weather) for unprecedented accuracy
@@ -138,7 +138,7 @@ Transform NASA's TEMPO satellite data into **real-time, actionable health intell
 
 #### Important Note
 
-This project demonstrates the transformative potential of NASA's open data policy. By making TEMPO satellite data freely accessible, NASA enables innovation that directly protects public health. AirWatch Pro exemplifies how space technology can address Earth's most pressing challenges.
+This project demonstrates the transformative potential of NASA's open data policy. By making TEMPO satellite data freely accessible, NASA enables innovation that directly protects public health. Atmosphere Analyzer exemplifies how space technology can address Earth's most pressing challenges.
 
 #### Highlighted Features
 
@@ -290,4 +290,4 @@ Our project directly addresses the NASA Space Apps 2025 challenge "From EarthDat
 
 ---
 
-**🌍 AirWatch Pro: Transforming NASA's revolutionary TEMPO satellite data into life-saving public health protection for communities worldwide.**
+**🌍 Atmosphere Analyzer: Transforming NASA's TEMPO satellite data into public health protection for communities worldwide.**

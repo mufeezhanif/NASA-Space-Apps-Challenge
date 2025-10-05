@@ -24,7 +24,7 @@ import {
   Calendar,
   Info
 } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { apiClient } from '@/lib/apiClient';
 import { WeatherData } from '@/types/airQuality';
 import { useLocation } from '@/hooks/useLocation';
@@ -339,8 +339,8 @@ export function HealthRecommendations({ aqi }: { aqi: number }) {
 export function DayPlanner() {
   const [selectedHour, setSelectedHour] = useState<number>(new Date().getHours());
   
-  // Mock hourly forecast data
-  const hourlyForecast = Array.from({ length: 24 }, (_, i) => ({
+  // Mock hourly forecast data (stable across renders)
+  const hourlyForecast = useMemo(() => Array.from({ length: 24 }, (_, i) => ({
     hour: i,
     aqi: Math.floor(Math.random() * 100) + 30,
     temperature: Math.floor(Math.random() * 15) + 15,
@@ -352,7 +352,7 @@ export function DayPlanner() {
       Math.random() > 0.3 ? 'moderate' : 'limited',
     outdoor_exercise: Math.random() > 0.3,
     sensitive_groups_warning: Math.random() > 0.7
-  }));
+  })), []);
 
   const formatHour = (hour: number) => {
     if (hour === 0) return '12 AM';

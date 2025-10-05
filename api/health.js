@@ -10,7 +10,7 @@ export default function handler(req, res) {
   
   res.status(200).json({
     status: "healthy",
-    message: "AirWatch Pro API is running",
+    message: "Atmosphere Analyzer API is running",
     timestamp: new Date().toISOString(),
     service: "NASA TEMPO Air Quality Monitor"
   });

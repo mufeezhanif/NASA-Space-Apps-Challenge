@@ -1,7 +1,7 @@
-# API Requirements for AirWatch Pro
+# API Requirements for Atmosphere Analyzer
 
 ## Overview
-This document outlines the API endpoints and data requirements for the AirWatch Pro application to provide comprehensive air quality monitoring for the NASA Space Apps Challenge.
+This document outlines the API endpoints and data requirements for the Atmosphere Analyzer application to provide comprehensive air quality monitoring for the NASA Space Apps Challenge.
 
 ## Required Pollutants (5 Key Parameters)
 
